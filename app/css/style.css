@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,800|Raleway&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+.nav li:last-child {
+  border-right: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 14px; }
+
+.container {
+  max-width: 1167px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+header {
+  background-image: url(http://i.piccy.info/i9/864bdece638e569c32a4b3269b013146/1578647542/221399/1356381/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1023px;
+  background-position: top center;
+  color: #ffffff; }
+  header a {
+    color: #ffffff; }
+
+.header__top_nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .header__top_nav .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px; }
+    .header__top_nav .logo img {
+      vertical-align: middle; }
+
+.top_nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .top_nav ul li {
+    padding-right: 31px; }
+  .top_nav ul a:hover {
+    color: #988574; }
+
+.demo {
+  font-size: 444px; }

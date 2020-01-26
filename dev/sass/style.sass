@@ -1,0 +1,60 @@
+@import "reset","fonts", "media"
+
+// FONT
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800|Raleway&display=swap')
+
+// COLOR
+
+$BD-COLOR: #988574
+$W: #ffffff
+
+// DEFAULD
+a
+ text-decoration: none
+
+
+body
+  font-family: 'Montserrat', sans-serif
+  font-weight: 100
+  font-size: 14px
+
+.container
+  // display: block
+  max-width: 1167px
+  margin: 0 auto
+  padding: 0 20px
+  
+  
+header
+  background-image: url(http://i.piccy.info/i9/864bdece638e569c32a4b3269b013146/1578647542/221399/1356381/bg.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 1023px
+  background-position: top center
+  color: $W
+  a
+    color: $W
+    
+.header__top_nav
+  display: flex
+  align-items: center
+  justify-content: space-between
+  .logo
+    font-family: 'Raleway', sans-serif
+    font-size: 34px
+    img
+      vertical-align: middle
+    
+.top_nav
+  ul
+    display: flex
+    li 
+      padding-right: 31px
+    a
+      &:hover
+        color: $BD-COLOR
+
+
+.demo
+    font-size: 444px
